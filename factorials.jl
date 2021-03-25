@@ -7,3 +7,5 @@ function fact(n)
     end
     return n*fact(n-1)
 end
+
+fact(10)

@@ -1,5 +1,5 @@
 function isPowerOfTwo(n)
-    return (n & (n-1)==0)
+    return (n & (n - 1) == 0)
 end
 isPowerOfTwo(20)
-isPowerOfTwo(4)
+isPowerOfTwo(4294967296)

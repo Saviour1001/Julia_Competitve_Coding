@@ -13,9 +13,9 @@ function PrimeFactor(n)
         end
     end
     while(n!=1)
-        println(a[n])
+        print("$(a[n]) ")
         n=div(n,a[n])
     end
 end
 
-PrimeFactor(10000)
+PrimeFactor(495)

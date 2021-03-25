@@ -9,7 +9,7 @@ function primeSieve(n)
     end
     for i in 2:n
         if(a[i]==0)
-            println(i)
+            print("$(i) ")
         end
     end
 end
